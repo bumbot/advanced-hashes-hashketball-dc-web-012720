@@ -148,7 +148,6 @@ def find_player_value(player_name, game_hash, key)
     #  end
     #end
 
-
     while count < game_hash[team][:players].length do
       player = game_hash[team][:players][count]
       if player[:player_name] == player_name
