@@ -142,11 +142,11 @@ def find_player_value(player_name, game_hash, key)
   game_hash.each_key do |team|
     count = 0
     
-    game_hash[team].each do |key, value|
+    #game_hash[team].each do |key, value|
       
-      if key == :players
-      end
-    end
+    #  if key == :players
+    #  end
+    #end
     
     
     while count < game_hash[team][:players].length do
